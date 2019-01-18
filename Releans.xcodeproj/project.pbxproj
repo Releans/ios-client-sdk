@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
+     
+/* Begin PBXAggregateTarget section */
+        AAEE5E87CAD05D168656264B /* Framework */ = {
+            isa = PBXAggregateTarget;
+            buildConfigurationList = AA6B40043ACECBE13E13500A /* Build configuration list for PBXAggregateTarget "Framework" */;
+            buildPhases = (
+                AACF2FCBE910DF27909EEA33 /* MultiBuild Framework */,
+            );
+            dependencies = (
+                AA64289540A97CFC567617A7 /* PBXTargetDependency */,
+            );
+            name = Framework;
+            productName = Framework;
+        };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+        AA156D6B8C98CDFEC6517A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C52504A381F7C41B67182 /* Foundation.framework */; };
+        AAB95DE29AE69E555D2350F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C52504A381F7C41B67182 /* Foundation.framework */; };
+        AAB6FF0AA3C1D0F2B493849F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA12F8206E62E7B415ACF0E1 /* UIKit.framework */; };
+        AAEC3975AAF8AA1308CB9DB7 /* libReleans.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFFB6F12C34BFAB07465B52 /* libReleans.a */; };
+        AA2F009821D5B379D796665A /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6FB783652324EFB3E7BA31 /* APIHelper.m */; };
+        AA3FC84281C8B49DAC26F961 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1C1510C4F3D56A3A951CFD /* APIError.m */; };
+        AABE48236E273EF1DB3275E0 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFCE585F7417595F3776274 /* Configuration.m */; };
+		AAB8FC8FBEB27D57C00E55CE /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AF826B686E34D8C722F89 /* BaseController.m */; };
+		AA32887E60F5BA315C1473B3 /* MessageController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE4E8F9D1AC122A8E07A555 /* MessageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE2143B85F856164FA57113 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAAE5707F358A8B6EEA8732 /* MessageController.m */; };
+		AAC67D5897669F4000C0C691 /* SenderController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0C8CDADF702AB669C3D3A2 /* SenderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6E64822EEB8C0B8006099D /* SenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAFC8A246DF97EAC3DA8A8F /* SenderController.m */; };
+		AA1FF65DDCE5BA071D2AC4ED /* BalanceController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE174AF50F35B07C452DED8 /* BalanceController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA120F83EE21A86621BA4653 /* BalanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABFF7A194ADE3DDBC3B2B35 /* BalanceController.m */; };
+        AAD9244039DF31452C9D7C2B /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFDA2A62B62D6847BB95686 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA9A82CCE1219D4C5910FE3B /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA48BFFBF934C1B6D2406E77 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+	
+        AAB3AA4B658C5443700D0C0C /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA49A4D678BA2CF98CE5E8A7 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+
+        AACD1629C16FBA5A9A7F13C0 /* Releans.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA4D901432267F5A4CA5886B /* Releans.xcdatamodeld */; };
+        AA561654D3DF3A6B4926FBE4 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1173ED2E32674C48620A64 /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AAA4DBB5CE589B5B0303FD74 /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AA406D274803136B567B1E87 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AADE4B211C778689E60B2D58 /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF0E81765DC544641E6641 /* HttpContext.m */; };
+		AAC9784606712E2F510C5892 /* NSDate+extension.h in Headers */ = {isa = PBXBuildFile; fileRef = AA87B0D5C82751CDDB81A704 /* NSDate+extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA0C599E7D4F200F8897AFF7 /* NSDate+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC241C706904812E6B3DBD1 /* NSDate+extension.m */; };
+        
+        AADD0D6E9D0D2ECB46296055 /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AACAA536E84B6D2BF2CDE608 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AAC751CC6398471D8AE95DF2 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D7A678B8A985E2C50CBFF /* UnirestClient.m */; };
+        AAD8F51F714DD5966CCD659B /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6B29F99CA666FECC5C487E /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA751EC3D8D1E1F02BC41D50 /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA956F01D2F5D670DC35B362 /* HttpBodyRequest.m */; };
+        AA033D32966F32BFBD65DD34 /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AA31975203C7EAF86B56F415 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA727179A75A81C7BFF5708F /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA98C9716BFF8AE5BFC28898 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA1A7ED3A893EFFCD4DDD12E /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA87A2CD71372D1DB3FF6520 /* HttpRequest.m */; };
+        AAFBD14918A6E076A0BF62B7 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF67FE2ADA5B77379090F09 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA19178EE1D12F29A92B4F31 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE099E73BF6EE469D4AB217 /* HttpResponse.m */; };
+        AA9312BDFDCA04EB5F7358C2 /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA43B3EAF2E61EDA56E566C3 /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AA9B8CABE328A66C2F9C101E /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78889B46E63B2815E8A97C /* HttpStringResponse.m */; };
+        AABB789B7FACBAA15967C8E9 /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5D18C97F1ED2716A752AA8 /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        AAD0FE4E6546B42C42539D57 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA940686A027FAC0683E87AE /* BaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+        AACEBD8E9E09F53ADB403022 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = AA9E028AD27263E3C2D60210 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = AA28707B011D40DC5FCAABD7;
+            remoteInfo = Releans;
+        };
+        AACEBD8E9E09F53ADB403022 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = AAD86B0C4A909E780CCAF44D /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = AA28707B011D40DC5FCAABD7;
+            remoteInfo = Releans;
+        };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+        AA6976EEF676DCB4C0327BF2 /* CopyFiles */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "include/$(PRODUCT_NAME)";
+            dstSubfolderSpec = 16;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        
+        AAFFB6F12C34BFAB07465B52 /* libReleans.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0;  path = libReleans.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA6C52504A381F7C41B67182 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AAD0DA7640475994DA60613B /* Releans-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Releans-Prefix.pch"; sourceTree = "<group>"; };
+        AA5CAA5BE3DEB378387D5842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml;name = Info.plist; path = Releans/Tests/Info.plist; sourceTree = "<group>"; };
+        AA12F8206E62E7B415ACF0E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AA6FB783652324EFB3E7BA31 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AA49A4D678BA2CF98CE5E8A7 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+     
+        AA1C1510C4F3D56A3A951CFD /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AA48BFFBF934C1B6D2406E77 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AAFCE585F7417595F3776274 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+        AA87B0D5C82751CDDB81A704 /* NSDate+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+extension.h"; sourceTree = "<group>"; };
+        AAC241C706904812E6B3DBD1 /* NSDate+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+extension.m"; sourceTree = "<group>"; };
+       
+        AAFDA2A62B62D6847BB95686 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AA4AF826B686E34D8C722F89 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+		AAE4E8F9D1AC122A8E07A555 /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageController.h; path = Controllers/MessageController.h; sourceTree = "<group>"; };
+		AAAAE5707F358A8B6EEA8732 /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageController.m; path = Controllers/MessageController.m; sourceTree = "<group>"; };
+		AA0C8CDADF702AB669C3D3A2 /* SenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SenderController.h; path = Controllers/SenderController.h; sourceTree = "<group>"; };
+		AAAFC8A246DF97EAC3DA8A8F /* SenderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SenderController.m; path = Controllers/SenderController.m; sourceTree = "<group>"; };
+		AAE174AF50F35B07C452DED8 /* BalanceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BalanceController.h; path = Controllers/BalanceController.h; sourceTree = "<group>"; };
+		AABFF7A194ADE3DDBC3B2B35 /* BalanceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BalanceController.m; path = Controllers/BalanceController.m; sourceTree = "<group>"; };
+        AA4FC9242D8229097D9F6093 /* Releans.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Releans.xcdatamodel; sourceTree = "<group>"; };        
+
+        AA1173ED2E32674C48620A64 /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+        AACAA536E84B6D2BF2CDE608 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+        AA4D7A678B8A985E2C50CBFF /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+        AA406D274803136B567B1E87 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+        AAFF0E81765DC544641E6641 /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+
+        AA6B29F99CA666FECC5C487E /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+        AA956F01D2F5D670DC35B362 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+        AA31975203C7EAF86B56F415 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+        AA98C9716BFF8AE5BFC28898 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+        AA87A2CD71372D1DB3FF6520 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+        AAF67FE2ADA5B77379090F09 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+        AAE099E73BF6EE469D4AB217 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+        AA43B3EAF2E61EDA56E566C3 /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+        AA78889B46E63B2815E8A97C /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+        AA5D18C97F1ED2716A752AA8 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+        AA940686A027FAC0683E87AE /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        AAC01B07AF245CB0CDD170FA /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA156D6B8C98CDFEC6517A86 /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AAFA9A16D872F6A26FA42D16 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AAB6FF0AA3C1D0F2B493849F /* UIKit.framework in Frameworks */,
+                AAEC3975AAF8AA1308CB9DB7 /* libReleans.a in Frameworks */,
+                AAB95DE29AE69E555D2350F1 /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        AAD4984ADF584177665EB2F2 = {
+            isa = PBXGroup;
+            children = (
+                AAE5FE10AA73B8B0BF58D30E /* Releans */,
+                AA9EA450E464263161F6BD14 /* Frameworks */,
+                AA8858C16C1B7799495DB67C /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        AA8858C16C1B7799495DB67C /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                AAFFB6F12C34BFAB07465B52 /* libReleans.a */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        AA9EA450E464263161F6BD14 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                AA6C52504A381F7C41B67182 /* Foundation.framework */,
+                AA12F8206E62E7B415ACF0E1 /* UIKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        AAE5FE10AA73B8B0BF58D30E /* Releans */ = {
+            isa = PBXGroup;
+            children = (
+                AA4145F3A86A211A638F387A /* Entity */,
+                AA01453D8EB8DA40D84E17AB /* Models */,
+                AAAB4E1BA682F714FFFE50E0 /* Http */,
+				AABB66C6B414A46151F694C8 /* Test Helper */,
+                AA56C8CB120D74D9FD3C57DB /* Controllers */,
+                AA15EC52DAFD549AA1AE2F7F /* Supporting Files */,
+                AA6FB783652324EFB3E7BA31 /* APIHelper.m */,
+                AA49A4D678BA2CF98CE5E8A7 /* APIHelper.h */,
+                AA1C1510C4F3D56A3A951CFD /* APIError.m */,
+                AA48BFFBF934C1B6D2406E77 /* APIError.h */,
+				AA87B0D5C82751CDDB81A704 /* NSDate+extension.h */,
+                AAC241C706904812E6B3DBD1 /* NSDate+extension.m */,
+                AAFCE585F7417595F3776274 /* Configuration.m */,
+                AAFDA2A62B62D6847BB95686 /* Configuration.h */,
+                AA4D901432267F5A4CA5886B /* Releans.xcdatamodeld */,
+            );
+            path = Releans;
+            sourceTree = "<group>";
+        };
+        AA15EC52DAFD549AA1AE2F7F /* Supporting Files */ = {
+            isa = PBXGroup;
+            children = (
+                AAD0DA7640475994DA60613B /* Releans-Prefix.pch */,
+            );
+            name = "Supporting Files";
+            sourceTree = "<group>";
+        };
+        AA56C8CB120D74D9FD3C57DB /* Controllers */ = {
+            isa = PBXGroup;
+            children = (
+                AA5D18C97F1ED2716A752AA8 /* BaseController.h */,
+                AA940686A027FAC0683E87AE /* BaseController.m */,
+				AA4AF826B686E34D8C722F89 /* BaseController.m */,
+				AAE4E8F9D1AC122A8E07A555 /* MessageController.h */,
+				AAAAE5707F358A8B6EEA8732 /* MessageController.m */,
+				AA0C8CDADF702AB669C3D3A2 /* SenderController.h */,
+				AAAFC8A246DF97EAC3DA8A8F /* SenderController.m */,
+				AAE174AF50F35B07C452DED8 /* BalanceController.h */,
+				AABFF7A194ADE3DDBC3B2B35 /* BalanceController.m */,
+            );
+            name = Controllers;
+            sourceTree = "<group>";
+        };
+        AA6945303944BAD4445B8A6F /* Client */ = {
+            isa = PBXGroup;
+            children = (
+                AA1173ED2E32674C48620A64 /* IHttpClient.h */,
+                AACAA536E84B6D2BF2CDE608 /* UnirestClient.h */,
+                AA4D7A678B8A985E2C50CBFF /* UnirestClient.m */,
+                AA406D274803136B567B1E87 /* HttpContext.h */,
+                AAFF0E81765DC544641E6641 /* HttpContext.m */,
+            );
+            name = Client;
+            sourceTree = "<group>";
+        };
+        AABB66C6B414A46151F694C8 /* Test Helper */ = {
+            isa = PBXGroup;
+            children = (
+                AA613A713697E8E9E6AB31AB /* Request */,
+                AA6945303944BAD4445B8A6F /* Client */,
+                AAD6140F9EE3518738ACC212 /* Response */,
+            );
+            name = Http;
+            sourceTree = "<group>";
+        };
+        AA613A713697E8E9E6AB31AB /* Request */ = {
+            isa = PBXGroup;
+            children = (
+                AA6B29F99CA666FECC5C487E /* HttpBodyRequest.h */,
+                AA956F01D2F5D670DC35B362 /* HttpBodyRequest.m */,
+                AA31975203C7EAF86B56F415 /* HttpMethod.h */,
+                AA98C9716BFF8AE5BFC28898 /* HttpRequest.h */,
+                AA87A2CD71372D1DB3FF6520 /* HttpRequest.m */,
+            );
+            name = Request;
+            sourceTree = "<group>";
+        };
+        AAD6140F9EE3518738ACC212 /* Response */ = {
+            isa = PBXGroup;
+            children = (
+                AAF67FE2ADA5B77379090F09 /* HttpResponse.h */,
+                AAE099E73BF6EE469D4AB217 /* HttpResponse.m */,
+                AA43B3EAF2E61EDA56E566C3 /* HttpStringResponse.h */,
+                AA78889B46E63B2815E8A97C /* HttpStringResponse.m */,
+            );
+            name = Response;
+            sourceTree = "<group>";
+        };
+        AA01453D8EB8DA40D84E17AB /* Models */ = {
+            isa = PBXGroup;
+            children = (
+            );
+            name = Models;
+            sourceTree = "<group>";
+        };
+        AA4145F3A86A211A638F387A /* Entity */ = {
+            isa = PBXGroup;
+            children = (
+            );
+            name = Entity;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+        AA13B6076044B4EB7050DE39 /* Headers */ = {
+            isa = PBXHeadersBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+		AA32887E60F5BA315C1473B3 /* MessageController.h in Headers */,
+		AAC67D5897669F4000C0C691 /* SenderController.h in Headers */,
+		AA1FF65DDCE5BA071D2AC4ED /* BalanceController.h in Headers */,
+        AAB3AA4B658C5443700D0C0C /* APIHelper.h in Headers */,
+        AAC9784606712E2F510C5892 /* NSDate+extension.h in Headers */,
+        AAD9244039DF31452C9D7C2B /* Configuration.h in Headers */,
+        AA9A82CCE1219D4C5910FE3B /* APIError.h in Headers */,
+        AA9E17FED3B6812D11EB1F51 /* TestHelper.h in Headers */,
+        AAD8F51F714DD5966CCD659B /* HttpBodyRequest.h in Headers */,
+        AA727179A75A81C7BFF5708F /* HttpRequest.h in Headers */,
+        AA561654D3DF3A6B4926FBE4 /* IHttpClient.h in Headers */,
+        AAA4DBB5CE589B5B0303FD74 /* HttpContext.h in Headers */,
+
+        AABB789B7FACBAA15967C8E9 /* BaseController.h in Headers */,
+        AAFBD14918A6E076A0BF62B7 /* HttpResponse.h in Headers */,
+        AADD0D6E9D0D2ECB46296055 /* UnirestClient.h in Headers */,
+        AA9312BDFDCA04EB5F7358C2 /* HttpStringResponse.h in Headers */,
+        AA033D32966F32BFBD65DD34 /* HttpMethod.h in Headers */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+        AA28707B011D40DC5FCAABD7 /* Releans */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AA82ACA3B71B3D8AC53528FE /* Build configuration list for PBXNativeTarget "Releans" */;
+            buildPhases = (
+                AAAD8BEDE6C04F26CD9A967F /* Sources */,
+                AAC01B07AF245CB0CDD170FA /* Frameworks */,
+                AA6976EEF676DCB4C0327BF2 /* CopyFiles */,
+                AA13B6076044B4EB7050DE39 /* Headers */,
+                AA26BF6507704A6409F338B9 /* Build Framework */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Releans;
+            productName = Releans;
+            productReference = AAFFB6F12C34BFAB07465B52 /* libReleans.a */;
+            productType = "com.apple.product-type.library.static";
+        };		
+/* End PBXNativeTarget section */
+
+
+
+/* Begin PBXProject section */
+        AAD86B0C4A909E780CCAF44D /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 0500;
+                ORGANIZATIONNAME = APIMatic;
+                TargetAttributes = {
+                    AA2DCD1EBC15E61EA692C99F = {
+                        CreatedOnToolsVersion = 7.3.1;
+                    };
+                };
+            };
+            buildConfigurationList = AA3D5C81EBA16BCDBA6678EE /* Build configuration list for PBXProject "Releans" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = AAD4984ADF584177665EB2F2;
+            productRefGroup = AA8858C16C1B7799495DB67C /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                AA28707B011D40DC5FCAABD7 /* Releans */,
+                AAEE5E87CAD05D168656264B /* Framework */,
+                AA2DCD1EBC15E61EA692C99F /* Tests */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+    AAF4E93AD0B9510E6CB456B5 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+        AA26BF6507704A6409F338B9 /* Build Framework */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "Build Framework";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest-APIMATIC/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+        };
+        AACF2FCBE910DF27909EEA33 /* MultiBuild Framework */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "MultiBuild Framework";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "# Taken from Ray Wenderlich tutorial: http://www.raywenderlich.com/65964/create-a-framework-for-ios\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nOUTPUT_LOCATION=\"${HOME}/Desktop\"\nif [ ! -w ${OUTPUT_LOCATION} ] ; then OUTPUT_LOCATION=\"${XCS_OUTPUT_DIR}\" ; fi\nif [ ! -w ${OUTPUT_LOCATION} ] ; then OUTPUT_LOCATION=\"/tmp\" ; fi\nif [ ! -w ${OUTPUT_LOCATION} ] ; then echo \"Couldn't find anywhere to write! Dying.\"; exit 1 ; fi\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\necho \"RW_SDK_PLATFORM is ${RW_SDK_PLATFORM}\"\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\necho \"RW_SDK_VERSION is ${RW_SDK_VERSION}\"\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\necho \"RW_OTHER_PLATFORM is ${RW_OTHER_PLATFORM}\"\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\necho \"BUILT_PRODUCTS_DIR is ${BUILT_PRODUCTS_DIR}\"\necho \"RW_OTHER_BUILT_PRODUCTS_DIR is ${RW_OTHER_BUILT_PRODUCTS_DIR}\"\n\n# remove alias and copy, if it's archive\nUNINSTALLED_PRODUCTS_DIRECTORY=\"${BUILT_PRODUCTS_DIR}/../../IntermediateBuildFilesPath/UninstalledProducts\"\n\nif [ -d \"$UNINSTALLED_PRODUCTS_DIRECTORY\" ]; then\necho \"Looks like we're archiving, fixing aliases...\"\nrm \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\ncp \"${UNINSTALLED_PRODUCTS_DIRECTORY}/${RW_INPUT_STATIC_LIB}\" \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\nif [ -d \"$UNINSTALLED_PRODUCTS_DIRECTORY\" ]; then\necho \"Looks like we're archiving, fixing aliases...\"\nrm \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\ncp \"${UNINSTALLED_PRODUCTS_DIRECTORY}/${RW_INPUT_STATIC_LIB}\" \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\nfi\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+        };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        AAE0F287B400F63C88C756EB /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AAAD8BEDE6C04F26CD9A967F /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA2F009821D5B379D796665A /* APIHelper.m in Sources */,
+                AA3FC84281C8B49DAC26F961 /* APIError.m in Sources */,
+                AA0C599E7D4F200F8897AFF7 /* NSDate+extension.m in Sources */,
+                AABE48236E273EF1DB3275E0 /* Configuration.m in Sources */,
+                AACD1629C16FBA5A9A7F13C0 /* Releans.xcdatamodeld in Sources */,
+				AAB8FC8FBEB27D57C00E55CE /* BaseController.m in Sources */,
+				AAE2143B85F856164FA57113 /* MessageController.m in Sources */,
+				AA6E64822EEB8C0B8006099D /* SenderController.m in Sources */,
+				AA120F83EE21A86621BA4653 /* BalanceController.m in Sources */,
+                 AA751EC3D8D1E1F02BC41D50 /* HttpBodyRequest.m in Sources */,
+                 AAD0FE4E6546B42C42539D57 /* BaseController.m in Sources */,
+                 AAC751CC6398471D8AE95DF2 /* UnirestClient.m in Sources */,
+                 AADE4B211C778689E60B2D58 /* UnirestClient.m in Sources */,
+                 AA19178EE1D12F29A92B4F31 /* HttpResponse.m in Sources */,
+                 AA9B8CABE328A66C2F9C101E /* HttpStringResponse.m in Sources */,
+                 AA1A7ED3A893EFFCD4DDD12E /* HttpRequest.m in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+        AA64289540A97CFC567617A7 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = AA28707B011D40DC5FCAABD7 /* Releans */;
+            targetProxy = AACEBD8E9E09F53ADB403022 /* PBXContainerItemProxy */;
+        };
+        AAE710D60AF9FA72F99ADA05 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = AA28707B011D40DC5FCAABD7 /* Releans */;
+            targetProxy = AACEBD8E9E09F53ADB403022 /* PBXContainerItemProxy */;
+        };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+
+        AA424ECAE71F053C848A780A /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                PRODUCT_NAME = "$(TARGET_NAME)";
+            };
+            name = Debug;
+        };
+        AACEA0FFC440D77D3D224A1D /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                PRODUCT_NAME = "$(TARGET_NAME)";
+            };
+            name = Release;
+        };
+        AAD9F6B0D7ABAB09FF5859BE /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+            };
+            name = Debug;
+        };
+        AA05B27B66E0C62144B5D5CC /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = YES;
+                ENABLE_NS_ASSERTIONS = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                SDKROOT = iphoneos;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        AA297EF2FAFA3A4730512B1A /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/Releans.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "Releans/Releans-Prefix.pch";
+                OTHER_LDFLAGS = "$(inherited)";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+                STRIP_INSTALLED_PRODUCT = NO;
+                STRIP_STYLE = "non-global";
+            };
+            name = Debug;
+        };
+        AA898798C13E56D992CE646A /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                COPY_PHASE_STRIP = NO;
+                DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/Releans.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "Releans/Releans-Prefix.pch";
+                OTHER_LDFLAGS = "$(inherited)";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+                STRIP_INSTALLED_PRODUCT = NO;
+                STRIP_STYLE = "non-global";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        AA6B40043ACECBE13E13500A /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA424ECAE71F053C848A780A /* Debug */,
+                AACEA0FFC440D77D3D224A1D /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+        };
+        AA3D5C81EBA16BCDBA6678EE /* Build configuration list for PBXProject "Releans" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AAD9F6B0D7ABAB09FF5859BE /* Debug */,
+                AA05B27B66E0C62144B5D5CC /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        AA82ACA3B71B3D8AC53528FE /* Build configuration list for PBXNativeTarget "Releans" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA297EF2FAFA3A4730512B1A /* Debug */,
+                AA898798C13E56D992CE646A /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+/* Begin XCVersionGroup section */
+        AA4D901432267F5A4CA5886B /* Releans.xcdatamodeld */ = {
+            isa = XCVersionGroup;
+            children = (
+                AA4FC9242D8229097D9F6093 /* Releans.xcdatamodel */,
+            );
+            currentVersion = AA4FC9242D8229097D9F6093 /* Releans.xcdatamodel */;
+            path = Releans.xcdatamodeld;
+            sourceTree = "<group>";
+            versionGroupType = wrapper.xcdatamodel;
+        };
+/* End XCVersionGroup section */
+    };
+    rootObject = AAD86B0C4A909E780CCAF44D /* Project object */;
+}

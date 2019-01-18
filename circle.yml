@@ -1,0 +1,10 @@
+machine:
+  xcode:
+    version: 7.3
+  environment:
+    XCODE_WORKSPACE: Releans.xcworkspace
+    XCODE_SCHEME: Releans
+
+dependencies:
+  override:   
+   - pod install
