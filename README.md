@@ -5,7 +5,7 @@ The Releans SDK enables developers to use Releans Services in their code. You ca
 ## How to Build
 
 
-The generated code has dependencies over external libraries like UniRest. These dependencies are defined in the ```PodFile``` file that comes with the SDK. 
+The Releans code has dependencies over external libraries like UniRest. These dependencies are defined in the ```PodFile``` file that comes with the SDK. 
 To resolve these dependencies, we use the Cocoapods package manager.
 Visit https://guides.cocoapods.org/using/getting-started.html to setup Cocoapods on your system.
 Open command prompt and type ```pod --version```. This should display the current version of Cocoapods installed if the installation was successful.
@@ -22,7 +22,7 @@ Open the project workspace using the (Releans.xcworkspace) file. Invoke the buil
 
 ## How to Use
 
-The generated code is a Cocoa Touch Static Library which can be used in any iOS project. The support for these generated libraries go all the way back to iOS 6.
+The Releans code is a Cocoa Touch Static Library which can be used in any iOS project. The support for these generated libraries go all the way back to iOS 6.
 
 The following section explains how to use the Releans library in a new iOS project.     
 ### 1. Starting a new project
